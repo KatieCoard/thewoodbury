@@ -117,7 +117,7 @@ section {
 	-webkit-border-radius: 1000px;
 	-ms-border-radius: 1000px;
 }
-.bg1 { background: url('../images/Yep.jpg') no-repeat 50% 0; }
+.bg1 { background: url('../images/Yep.JPG') no-repeat 50% 0; }
 .bg2 { background: url('../images/map2.png') no-repeat 50% 0; }
 .bg3 { background: url('../images/back.jpg') no-repeat 50% 0; }
 .bg4 { background: url('http://placehold.it/1920x780') no-repeat 50% 0; }
