@@ -162,7 +162,7 @@ jQuery(document).ready(function ($){
 		slideshowSpeed: 3500,
 		animationDuration: 1000,
 		directionNav: false,
-		controlNav: true,
+		controlNav: false,
 		useCSS: false
 	});
 });
