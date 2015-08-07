@@ -225,7 +225,8 @@ h6 { font: 300 14px/20px "Lato", sans-serif; }
 	width: 155px;
 	height: 35px;
 	display: block;
-	/*background: url('../images/logo.png') no-repeat 0 0;*/
+	background: url('../images/logo.png') no-repeat 0 0;
+	text-indent: -10000px;
 }
 .logo-footer {
 	width: 165px;
