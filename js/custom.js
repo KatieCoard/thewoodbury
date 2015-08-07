@@ -136,7 +136,6 @@ function parallaxInit() {
 	detectMobile = isMobile.any();
 	if (detectMobile == null) {
 		$('.bg1').parallax("50%", 0.5);
-		$('.bg2').parallax("50%", 0.5);
 		$('.bg3').parallax("50%", 0.5);
 		$('.bg4').parallax("50%", 0.5);
 		$('.bg5').parallax("50%", 0.5);
