@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>quivee - One Page Portfolio Website</title>
+        <title>The Woodbury</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="quivee" name="description">
         <meta content="playlab" name="author">
@@ -24,43 +24,108 @@
     </head>
     <body class="page-turquoise">
 
-		<div class="container member-profile">
-			<div class="row">
-				<div class="span4 offset1 text-center full-profile">
-					<img src="http://placehold.it/570x570" alt="image" />
-					<ul class="unstyled inline mar-t30">
-						<li><a href="#" title=""><i class="icon-twitter"></i></a></li>
-						<li><a href="#" title=""><i class="icon-linkedin"></i></a></li>
-						<li><a href="#" title=""><i class="icon-google-plus-sign"></i></a></li>
-						<li><a href="#" title=""><i class="icon-envelope"></i></a></li>
-					</ul>
-				</div>
-				<div class="span6 full-profile">
-					<h1 class="member-name">Peter Ford</h1>
-					<p class="member-role">CEO and Founder</p>
-					
-					<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget nisl vel risus fermentum luctus.</h3>
-
-					<p><strong>Skills</strong></p>
-					<div class="progress">
-						<span>Marketing</span>
-					    <div class="bar" style="width: 0%;" data-percentage="75"></div>
+		<div class="wrapper">	
+				<div class="container">
+					<div class="row">
+						<div class="span12">
+							<h2>Below are a selection of what we've been doing recently.</h2>
+							<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+						</div>
 					</div>
-					<div class="progress">
-						<span>Graphic Design</span>
-					    <div class="bar" style="width: 0%;" data-percentage="90"></div>
+					<div class="row">
+						<div class="span12">
+							<ul id="portfolio-filter" class="unstyled inline">
+								<li class="active"><a class="all btn btn-quivee" href="#all" data-filter="*">All</a></li>
+								<li><a data-filter=".web-design" class="web-design btn btn-quivee" href="#web-design" data-rel="web-design">Web Design</a></li>
+								<li><a data-filter=".photography" class="photography btn btn-quivee" href="#photography" data-rel="photography">Photography</a></li>
+								<li><a data-filter=".logo-design" class="logo-design btn btn-quivee" href="#logo-design" data-rel="logo-design">Logo Design</a></li>
+							</ul>
+						</div>
 					</div>
-					<div class="progress">
-						<span>Web Design</span>
-					    <div class="bar" style="width: 0%;" data-percentage="65"></div>
-					</div>
-					
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget nisl vel risus fermentum luctus. Vestibulum eget tristique ligulas. Aenean tincidunt, mi sagittis accumsan ornare, dui nunc porttitor neque, et mollis urna massa et velit. Nulla gravida turpis vitae eros viverra mollis vel a turpis. Aliquam ut blandit nunc. Maecenas iaculis nisi et orci sodales, ut tempor ante lobortis. Morbi ipsum arcu, adipiscing sit amet euismod ultricies, porta a nulla.</p>
-					
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget nisl vel risus fermentum luctus. Vestibulum eget tristique ligulas. Aenean tincidunt, mi sodales, ut tempor ante lobortis. Morbi ipsum arcu, adipiscing sit amet euismod ultricies, porta a nulla.</p>
+					<ul id="portfolio-list" class="row isotope">
+						<li class="span3 block web-design" data-type="web-design">
+							<a class="portfolio-thumb" href="images/portfolio-1.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-1.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block photography" data-type="photography">
+							<a class="portfolio-thumb" href="images/portfolio-2.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-2.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block logo-design" data-type="logo-design">
+							<a class="portfolio-thumb" href="images/portfolio-3.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-3.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block photography" data-type="photography">
+							<a class="portfolio-thumb" href="images/portfolio-4.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-4.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block logo-design" data-type="logo-design">
+							<a class="portfolio-thumb" href="images/portfolio-5.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-5.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block web-design" data-type="web-design">
+							<a class="portfolio-thumb" href="images/portfolio-6.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-6.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block logo-design" data-type="logo-design">
+							<a class="portfolio-thumb" href="images/portfolio-7.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-7.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block photography" data-type="photography">
+							<a class="portfolio-thumb" href="images/portfolio-8.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-8.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block web-design" data-type="web-design">
+							<a class="portfolio-thumb" href="images/portfolio-9.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-9.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block photography" data-type="photography">
+							<a class="portfolio-thumb" href="images/portfolio-10.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-10.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block logo-design" data-type="logo-design">
+							<a class="portfolio-thumb" href="images/portfolio-11.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-11.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block web-design" data-type="web-design">
+							<a class="portfolio-thumb" href="images/portfolio-12.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-12.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block photography" data-type="photography">
+							<a class="portfolio-thumb" href="images/portfolio-13.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-13.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block logo-design" data-type="logo-design">
+							<a class="portfolio-thumb" href="images/portfolio-14.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-14.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block photography" data-type="photography">
+							<a class="portfolio-thumb" href="images/portfolio-15.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-15.png" alt="portfolio image" />
+							</a>
+						</li>
+						<li class="span3 block web-design" data-type="web-design">
+							<a class="portfolio-thumb" href="images/portfolio-16.png" title="portfolio">
+								<img class="portfolio-image" src="images/portfolio-16.png" alt="portfolio image" />
+							</a>
+						</li>
+					</ul>	
 				</div>
 			</div>
-		</div>
 		<!-- Javascript  -->
 		<!-- Javascript  -->
 		<script type="text/javascript" src="js/jquery.js"></script>
