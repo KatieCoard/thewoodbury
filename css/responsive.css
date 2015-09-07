@@ -10,7 +10,9 @@
 	}
 	div { 
 		width:auto;  
-		overflow:hidden; 
+		/*Removed the below rule, which was default in the theme,
+		but broke the Google maps embed.*/
+		/*overflow:hidden; */
 	}
 	.controls,
 	.control-group {
