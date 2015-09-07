@@ -184,4 +184,20 @@ $(document).ready(function() {
   			jQuery("body").removeClass("hidden-body");
   		}
     });
+
+
+    //Custom code for Woodbury
+    //iOS is borked if background-attachment is fixed
+    //but the theme requires it on desktop.
+    //Boo on user agent sniffing but it works.    
+    var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+    if (iOS){
+        $('.bg1, .bg2, .bg3, .bg4, .bg5').css({
+            'background-attachment' : 'local',
+            'background-size' : 'cover'
+        });
+    }
 });      
+
+
