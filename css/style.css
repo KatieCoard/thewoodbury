@@ -125,11 +125,9 @@ section {
 .bg1, .bg2, .bg3, .bg4, .bg5 {
 	height: 700px;
 	padding: 0;
-	/*Removing the below rule fixes it for iPad.*/
-	/*background-attachment: fixed;*/
-	background-attachment: local !important;
-	background-size: cover !important;
+	background-attachment: fixed;
 }
+
 .pattern {
 	background: url('../images/pattern.png') repeat left top;
 }
