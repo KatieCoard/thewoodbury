@@ -1,0 +1,16 @@
+body {font-family: Arial, Book Antiqua, Bookman Old Style; font-size: 12px; font-color: #00394A; background-color: #ffffff; }
+li {font-family: Arial, Book Antiqua, Bookman Old Style; font-size: 14px; font-color: #00394A; }
+
+A:active, A:hover, A:link, A:visited {text-decoration: none; }
+A:link {color: #218429; }
+A:visited {color:#31007B; }
+A:active {color:#FFFF10; }
+
+/*Picture Labels*/
+.label_large {font-family: times new roman; font-size: 18px; font-color: #404040; }
+
+/*Contact Footer and small picture labels*/
+.footer { font-family: Arial, Book Antiqua, Bookman Old Style; font-size: 10px; font-color: #00394A; }
+
+.tnt { font-family: Arial; font-size: 8px; font-color: #00394A; }
+
